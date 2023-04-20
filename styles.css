@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+@font-face {
+    font-family: "IRANSans";
+    src:  
+        url('./fonts/Woff2/IRANSansXFaNum-Medium.woff2') format('woff2'), 
+        url('./fonts/Woff/IRANSansXFaNum-Medium.woff') format('woff')
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    direction: rtl;
+    background-color: #F6F1F1;
+}
+
+input {
+    direction: ltr !important;
+    text-align: left !important;
+    font-size: 2rem !important;
+}
+label, span {
+    font-family: "IRANSans", Arial, sans-serif;
+    font-size: 2rem;
+}
+
+body textarea {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem !important;
+    font-weight: 600;    
+}
+
+body input {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    height: 43px !important;
+}
+
+.form-check-input {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.btn {
+    font-family: "IRANSans", Arial, sans-serif;
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+    width: 200px;
+}
+
+.area-container {
+    margin: 10px 20px;
+}
+
+.translate-btn{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.val-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border-bottom: 2px solid #454545;
+    padding: 0 15px;
+}
+
+.val-container .inputBox {
+    width: 100%;
+    margin: 20px 40px;
+}
+
+#inputAddress,
+.chbx {
+    margin: 20px;
+}
+
+textarea {
+    width: 100%;
+}
